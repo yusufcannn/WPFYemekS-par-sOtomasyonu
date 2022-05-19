@@ -1,0 +1,64 @@
+﻿<Window x:Class="FoodOtomatıon.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarServıceOtomatıon"
+        mc:Ignorable="d"
+       
+       
+        Title="MainWindow" Height="490" Width="800" Background="#FFD3A62E">
+    <Grid Name="grd" Margin="0,0,0,244">
+        <StackPanel HorizontalAlignment="Left" Height="232" Margin="0,10,0,-27" VerticalAlignment="Top" Width="770"  Loaded="Window_Loaded">
+
+
+
+
+
+            <GroupBox Header="Yemek Sipariş Uygulaması" Margin="10,10,10,10"  Height="71">
+                <DockPanel VerticalAlignment="Center" Margin="10,0,10,0">
+                    <Label>Sipariş Adına Göre Filtreleme</Label>
+                    <TextBox Name="txtAra"  Height="30" TextWrapping="Wrap"  Width="330" TextChanged="txtAra_TextChanged"/>
+
+                </DockPanel>
+
+
+
+
+            </GroupBox>
+            <DataGrid Name="dtgDatabase" Margin="10,0,10,0" SelectionMode="Single" AutoGenerateColumns="False" AlternatingRowBackground="#FFD3A62E" Height="140" AlternationCount="0"  SelectionChanged="dtgDatabase_SelectionChanged">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding ID}" Header="SıraNo" IsReadOnly="True" Width="150"/>
+                    <DataGridTextColumn Binding="{Binding SiparisNo}" Header="SiparişNo" Width="155"/>
+                    <DataGridTextColumn Binding="{Binding SiparisTutarı}" Header="SiparişTutarı" Width="155"/>
+                    <DataGridTextColumn Binding="{Binding SiparisAdresi}" Header="SiparişAdresi" Width="175"/>
+                    <DataGridTextColumn Binding="{Binding Siparis}" Header="Sipariş" Width="155"/>
+
+                </DataGrid.Columns>
+            </DataGrid>
+
+
+
+
+        </StackPanel>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="SiparişNo" VerticalAlignment="Top" Margin="555,303,0,-123" Height="35" RenderTransformOrigin="8.401,3.862" Width="76"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="SiparişTutarı" VerticalAlignment="Top" Margin="236,329,0,-147" Height="33" RenderTransformOrigin="4.06,3.1" Width="77"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="SiparişAdresi" VerticalAlignment="Top" Margin="236,273,0,-94" Height="36" RenderTransformOrigin="-2.12,3.525" Width="111"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Sipariş" VerticalAlignment="Top" Margin="16,269,0,-87" Height="33" RenderTransformOrigin="-1.031,0.677" Width="64"/>
+        <TextBox HorizontalAlignment="Left" Name="txtSiparisAdres" Height="23" TextWrapping="Wrap" Text="{Binding SiparisAdresi}" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.973,3.26" Margin="375,269,0,-77"/>
+        <TextBox HorizontalAlignment="Left"  Name="txtSiparis" Height="23" TextWrapping="Wrap" Text="{Binding Siparis}" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.973,3.26" Margin="80,273,0,-81"/>
+        <TextBox HorizontalAlignment="Left"  Name="txtSiparisTutari" Height="23" TextWrapping="Wrap" Text="{Binding SiparisTutarı}" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.973,3.26" Margin="375,325,0,-133"/>
+        <TextBox HorizontalAlignment="Left"  Name="txtSiparisNo" Height="23" TextWrapping="Wrap" Text="{Binding SiparisNo}" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.973,3.26" Margin="650,303,0,-111"/>
+        <TextBox HorizontalAlignment="Left"  Name="txtID" Height="23" TextWrapping="Wrap" Text="{Binding ID}" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.973,3.26" Margin="80,329,0,-137"/>
+        <Button Name="btEkle"   Content="Ekle" HorizontalAlignment="Left" VerticalAlignment="Top" Width="86" Margin="125,370,0,-213" Height="58" Click="btEkle_Click"/>
+        <Button Name="btTemizle"  Content="Temizle" HorizontalAlignment="Left" VerticalAlignment="Top" Width="86" Margin="236,370,0,-213" Height="58"/>
+        <Button Name="btGuncelle"  Content="Güncelle" HorizontalAlignment="Left" VerticalAlignment="Top" Width="86" Margin="363,370,0,-213" Height="58" Click="btGuncelle_Click"/>
+        <Button Name="btSil"  Content="Sil" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="86" Margin="491,370,0,-213" Height="58" Click="btSil_Click"/>
+
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="ID" VerticalAlignment="Top" Margin="16,329,0,-147" Height="33" RenderTransformOrigin="-1.031,0.677" Width="64"/>
+
+
+
+
+    </Grid>
+</Window>

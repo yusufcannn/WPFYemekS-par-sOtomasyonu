@@ -1,0 +1,15 @@
+C:\Users\yusuf\OneDrive\Masaüstü\CarServıceOtomatıon\CarServıceOtomatıon\bin\Debug\CarServıceOtomatıon.exe.config
+C:\Users\yusuf\OneDrive\Masaüstü\CarServıceOtomatıon\CarServıceOtomatıon\bin\Debug\CarServıceOtomatıon.exe
+C:\Users\yusuf\OneDrive\Masaüstü\CarServıceOtomatıon\CarServıceOtomatıon\bin\Debug\CarServıceOtomatıon.pdb
+C:\Users\yusuf\OneDrive\Masaüstü\CarServıceOtomatıon\CarServıceOtomatıon\obj\Debug\YemekSiparisOtomasyonu.csproj.AssemblyReference.cache
+C:\Users\yusuf\OneDrive\Masaüstü\CarServıceOtomatıon\CarServıceOtomatıon\obj\Debug\MainWindow.g.cs
+C:\Users\yusuf\OneDrive\Masaüstü\CarServıceOtomatıon\CarServıceOtomatıon\obj\Debug\App.g.cs
+C:\Users\yusuf\OneDrive\Masaüstü\CarServıceOtomatıon\CarServıceOtomatıon\obj\Debug\CarServıceOtomatıon_MarkupCompile.cache
+C:\Users\yusuf\OneDrive\Masaüstü\CarServıceOtomatıon\CarServıceOtomatıon\obj\Debug\CarServıceOtomatıon_MarkupCompile.lref
+C:\Users\yusuf\OneDrive\Masaüstü\CarServıceOtomatıon\CarServıceOtomatıon\obj\Debug\MainWindow.baml
+C:\Users\yusuf\OneDrive\Masaüstü\CarServıceOtomatıon\CarServıceOtomatıon\obj\Debug\CarServıceOtomatıon.g.resources
+C:\Users\yusuf\OneDrive\Masaüstü\CarServıceOtomatıon\CarServıceOtomatıon\obj\Debug\CarServıceOtomatıon.Properties.Resources.resources
+C:\Users\yusuf\OneDrive\Masaüstü\CarServıceOtomatıon\CarServıceOtomatıon\obj\Debug\YemekSiparisOtomasyonu.csproj.GenerateResource.cache
+C:\Users\yusuf\OneDrive\Masaüstü\CarServıceOtomatıon\CarServıceOtomatıon\obj\Debug\YemekSiparisOtomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\yusuf\OneDrive\Masaüstü\CarServıceOtomatıon\CarServıceOtomatıon\obj\Debug\CarServıceOtomatıon.exe
+C:\Users\yusuf\OneDrive\Masaüstü\CarServıceOtomatıon\CarServıceOtomatıon\obj\Debug\CarServıceOtomatıon.pdb
